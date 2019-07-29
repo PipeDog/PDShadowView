@@ -15,6 +15,7 @@
 		DDD98F0622EEEFA700944A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98F0522EEEFA700944A7F /* main.m */; };
 		DDD98F1022EEEFA700944A7F /* PDShadowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98F0F22EEEFA700944A7F /* PDShadowViewTests.m */; };
 		DDD98F1B22EEEFA700944A7F /* PDShadowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98F1A22EEEFA700944A7F /* PDShadowViewUITests.m */; };
+		DDD98F2B22EEEFCB00944A7F /* PDShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD98F2A22EEEFCB00944A7F /* PDShadowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDD98F1622EEEFA700944A7F /* PDShadowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDShadowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD98F1A22EEEFA700944A7F /* PDShadowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDShadowViewUITests.m; sourceTree = "<group>"; };
 		DDD98F1C22EEEFA700944A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD98F2922EEEFCB00944A7F /* PDShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDShadowView.h; sourceTree = "<group>"; };
+		DDD98F2A22EEEFCB00944A7F /* PDShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDShadowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DDD98EF522EEEFA500944A7F /* PDShadowView */ = {
 			isa = PBXGroup;
 			children = (
+				DDD98F2822EEEFAD00944A7F /* Source */,
 				DDD98EF622EEEFA500944A7F /* AppDelegate.h */,
 				DDD98EF722EEEFA500944A7F /* AppDelegate.m */,
 				DDD98EF922EEEFA500944A7F /* ViewController.h */,
@@ -130,6 +134,15 @@
 				DDD98F1C22EEEFA700944A7F /* Info.plist */,
 			);
 			path = PDShadowViewUITests;
+			sourceTree = "<group>";
+		};
+		DDD98F2822EEEFAD00944A7F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DDD98F2922EEEFCB00944A7F /* PDShadowView.h */,
+				DDD98F2A22EEEFCB00944A7F /* PDShadowView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				DDD98EFB22EEEFA500944A7F /* ViewController.m in Sources */,
 				DDD98F0622EEEFA700944A7F /* main.m in Sources */,
+				DDD98F2B22EEEFCB00944A7F /* PDShadowView.m in Sources */,
 				DDD98EF822EEEFA500944A7F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
